@@ -11,9 +11,9 @@ signUpForm.addEventListener("submit" , function(e){
         localStorage.setItem("email" , userEmail)
 
         alert("done")
-        window.location.href = "../Login/LogIn.html"
+        window.location.href = "../LogIn/logIn.html"
         
     }
 
     
-});
+})

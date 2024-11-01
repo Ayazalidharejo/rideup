@@ -12,7 +12,7 @@
     
 }
 .top-heading{
-    font-size: 58px;
+    font-size: 38px;
     margin-top: 200px;
 }
 
@@ -33,7 +33,7 @@
     background-color:  rgb(239, 238, 226);
 }
 .guide-heading{
-   font-family: ro;
+   
    font-weight: 400; 
    line-height: 38.5px;
    
@@ -107,7 +107,7 @@
 .Search-bar{
     position: absolute;
     top: 7px;
-    left: 330px;
+    left: 300px;
     
 }
 ::placeholder{
