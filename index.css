@@ -12,8 +12,10 @@
     
 }
 .top-heading{
-    font-size: 38px;
+    font-size: 36px;
     margin-top: 200px;
+    margin-left: 100px;
+    line-height: 40px;
 }
 
 .group .emaiion:active + .home {
@@ -106,7 +108,7 @@
 }
 .Search-bar{
     position: absolute;
-    top: 7px;
+    top: 22px;
     left: 300px;
     
 }
@@ -154,7 +156,9 @@
 .cart-img {
     width: 50px;
 }
-
+.btn-for-prev{
+    
+}
 
 
 
