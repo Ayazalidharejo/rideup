@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", serif;
+}
+
+.cycle-img{
+position: absolute;
+top: -400px;
+left: 93px;
+    width: 100vh;
+}
+.touch-heading{
+    margin-right: 130px;
+}
+
+.cart-img {
+ 
+    top: -75px;
+    left: 10px;
+  }
+  .for-bg-of-carts{
+    background-color: #EFEEE2;
+   
+  }
+  .text-orange{
+    color:  #FF5722;
+    ;
+    font-size: 40px ;
+  }
+  .contant2{
+    margin-top: 80px;
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Higher z-index for the header */
+    background: white; /* Ensure visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Swiper Styles */
+.swiper {
+    z-index: 1; /* Lower z-index for the swiper */
+}
+
+.cart-img {
+    width: 50px;
+}

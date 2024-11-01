@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", serif;
+    
+}
+.cart-img {
+ 
+    top: -75px;
+    left: 10px;
+  }
+  .for-bg-of-carts{
+    background-color: #EFEEE2;
+   
+  }
+  .contant1{
+    margin-top: 90px;
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Higher z-index for the header */
+    background: white; /* Ensure visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Swiper Styles */
+.swiper {
+    z-index: 1; /* Lower z-index for the swiper */
+}
+
+.cart-img {
+    width: 50px;
+}
+.course-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #ff5a36;
+}
+
+.course-card:hover h5 {
+  color: #ff5a36;
+}
+
+.course-card:hover .btn {
+  background-color: #e6492e;
+}
