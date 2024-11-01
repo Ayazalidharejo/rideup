@@ -8,6 +8,7 @@
 }
 .Watch-video-btn{
     background-color: #BF360C;
+
     
 }
 .top-heading{
@@ -62,13 +63,26 @@
     background-repeat: no-repeat; /* Avoids repetition */
     background-position: center; /* Centers the image */
 }
-
+@media (max-width: 1280px) {
+    
+    .top-heading {
+        font-size: 40px;
+        display: flex;
+        flex-wrap: wrap;
+         /* Reduces font size for smaller screens */
+    }
+      .Search-bar{
+        position: absolute;
+        top: 10px !important;
+        left: 26% !important;
+    }
+}
 @media (max-width: 768px) {
     .responsive-bg {
         background-size: cover; /* On smaller screens, covers the whole section */
     }
     .top-heading {
-        font-size: 1.5rem; /* Reduces font size for smaller screens */
+        font-size: 20px; /* Reduces font size for smaller screens */
     }
 }
 @media (max-width: 480px) {
@@ -99,12 +113,7 @@
 ::placeholder{
     padding-left: 1px;
 }
-/* .img-postion{
-    position: absolute;
-    top: -15px;
-    border: 1px solid red;
-    z-index: 1 !important;
-} */
+
 
 .cart-img {
     top: -75px;
