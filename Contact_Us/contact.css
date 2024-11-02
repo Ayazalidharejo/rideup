@@ -110,3 +110,16 @@ img, .container, .swiper-container {
   padding: 0 15px;
   margin: 0 auto;
 }
+.cycle-img{
+  width: 1000px;
+  position: absolute;
+  left: -200px;
+  top: -420px;
+}
+.stock-img{
+  position: absolute;
+  top: 360px;
+  left: 260px;
+  width: 500px;
+ 
+}
